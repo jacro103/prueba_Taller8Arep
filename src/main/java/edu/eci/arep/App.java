@@ -4,13 +4,7 @@ import static spark.Spark.get;
 import static spark.Spark.port;
 import static spark.Spark.staticFiles;
 
-/**
- * This class represents the main application class.
- * It contains the entry point for the application and sets up the necessary
- * routes.
- * 
- * @author Daniel Santanilla
- */
+
 public class App {
 
     /**

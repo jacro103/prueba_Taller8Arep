@@ -15,11 +15,7 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Sorts;
 
-/**
- * Utility class for MongoDB operations.
- * 
- * @author Daniel Santanilla
- */
+
 public class MongoUtil {
 
     private static final String CONNECTION_STRING = "mongodb://mongodatabase:27017/";

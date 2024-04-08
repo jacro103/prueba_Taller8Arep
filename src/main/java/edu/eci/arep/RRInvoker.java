@@ -13,15 +13,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * The `RRInvoker` class is responsible for invoking a round-robin log service.
- * It sends a GET request to the log service URLs in a round-robin fashion and
- * retrieves the response.
- * The class also provides a method to generate the log service URLs based on a
- * list of ports.
- *
- * @author Daniel Santanilla
- */
+
 public class RRInvoker {
 
     private static final String USER_AGENT = "Mozilla/5.0";

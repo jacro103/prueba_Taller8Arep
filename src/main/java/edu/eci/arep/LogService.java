@@ -3,12 +3,7 @@ package edu.eci.arep;
 import static spark.Spark.get;
 import static spark.Spark.port;
 
-/**
- * This class represents the log service application class.
- * It contains the entry point for the load balancer and sets up the necessary
- * 
- * @author Daniel Santanilla
- */
+
 public class LogService {
 
     /**
