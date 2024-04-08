@@ -26,7 +26,7 @@ public class App {
 
     /**
      * Retrieves the port from the environment variable or uses the default port
-     * 4567.
+     * 8080.
      *
      * @return the port to use
      */
@@ -34,7 +34,7 @@ public class App {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
         }
-        return 4567;
+        return 8080;
     }
 
 }

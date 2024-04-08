@@ -35,7 +35,7 @@ public class LogService {
 
     /**
      * Retrieves the port from the environment variable or uses the default port
-     * 47000.
+     * 6000.
      *
      * @return the port to use
      */
@@ -43,7 +43,7 @@ public class LogService {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
         }
-        return 47000;
+        return 6000;
     }
 
 }

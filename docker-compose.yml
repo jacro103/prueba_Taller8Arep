@@ -10,7 +10,7 @@ services:
         environment:
             - PORT=45000
         ports:
-            - "4567:45000"
+            - "8080:45000"
         depends_on:
             - mongodatabase
             - logservice1

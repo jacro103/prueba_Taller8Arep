@@ -42,7 +42,7 @@ docker-compose up -d
 
 El anterior comando limpiará las contrucciones previas, compilará y luego ejecutará en distintos contenedores los servicios de la aplicación.
 
-Diríjase a su navegador de preferencia y vaya a la siguiente dirección: [http://localhost:4567](http://localhost:4567) para ver la aplicación en funcionamiento.
+Diríjase a su navegador de preferencia y vaya a la siguiente dirección: [http://localhost:8080](http://localhost:8080) para ver la aplicación en funcionamiento.
 
 ## Generando Javadoc 📦
 
